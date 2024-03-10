@@ -1,0 +1,27 @@
+#colorpick input[type="color"]{
+    background-color: cadetblue;
+    width: 65px;
+    height:50px;
+    margin: 5px;
+}
+#colorpick {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.element_css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#gradient_div {
+    width:100%;
+    height:1em;
+    background-image: linear-gradient(to right,#47A417,#E48500);
+}
+
+body {
+    transition: background-color 250ms ease
+}

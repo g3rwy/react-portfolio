@@ -3,6 +3,7 @@
     width:  420px;
     background-color: #2e2e2e;
     padding: 20px;
+    margin: auto;
 }
 
 @media screen and (max-width: 500px){
